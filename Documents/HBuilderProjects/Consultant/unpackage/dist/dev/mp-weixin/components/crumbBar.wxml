@@ -1,0 +1,1 @@
+<view class="crumb-bar data-v-0ad77efb"><view wx:for="{{a}}" wx:for-item="item" wx:key="e" class="{{['tag', 'data-v-0ad77efb', item.d]}}" bindtap="{{item.f}}">{{item.a}} <view wx:if="{{item.b}}" class="icon iconfont icon-guanbi data-v-0ad77efb" bindtap="{{item.c}}"></view></view></view>

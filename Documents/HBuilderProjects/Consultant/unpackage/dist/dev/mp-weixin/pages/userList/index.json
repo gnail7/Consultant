@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "loading": "../../directives/loading",
+    "pager": "../../components/pager/pager",
+    "drawer": "./component/drawer"
+  }
+}

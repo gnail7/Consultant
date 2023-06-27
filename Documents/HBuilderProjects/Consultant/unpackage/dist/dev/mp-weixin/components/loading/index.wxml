@@ -1,0 +1,1 @@
+<view wx:if="{{a}}" class="loading"><view class="circle"></view></view>

@@ -1,0 +1,476 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 按钮样式*/
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 按钮样式*/
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+.footer.data-v-9b186cfb {
+  width: 100%;
+  background-color: #E9EDF4;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+}
+.footer .content-wrap.data-v-9b186cfb {
+  width: 78%;
+  margin-left: 2%;
+}
+.footer .content.data-v-9b186cfb {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 14rpx 0;
+  background-color: #FFFFFF;
+  border-radius: 30rpx;
+  padding: 16rpx;
+  caret-color: #01B4FE;
+}
+.footer .btn-wrap.data-v-9b186cfb {
+  width: 18%;
+  margin-right: 2%;
+}
+.footer .btn.data-v-9b186cfb {
+  width: 15%;
+  height: 65rpx;
+  font-size: 26rpx;
+  margin-left: 2%;
+  background-color: #01B4FE;
+  color: #FFFFFF;
+  position: fixed;
+  bottom: 14rpx;
+  border: 0;
+  outline: none;
+}
+.footer .btn-wrap .disabled.data-v-9b186cfb {
+  background-color: #aae8f5;
+}
+.uni-textarea-wrapper.data-v-9b186cfb {
+  max-height: 180rpx;
+}
+.emo-image.data-v-9b186cfb {
+  height: 40rpx;
+  width: 40rpx;
+  vertical-align: middle;
+  display: inline-block;
+}
+.dialog2.data-v-9b186cfb {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.dialog2 .box2.data-v-9b186cfb {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dialog2 .box2 .mask2.data-v-9b186cfb {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.dialog2 .box2 .consultant-list.data-v-9b186cfb {
+  border-radius: 50rpx;
+  width: 90%;
+  height: 800rpx;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  z-index: 2;
+  position: relative;
+}
+.consultant-item.data-v-9b186cfb {
+  display: flex;
+  height: 150rpx;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20rpx;
+  border-bottom: 2rpx solid #f7f7f7;
+  box-sizing: border-box;
+}
+.consultant-item .left.data-v-9b186cfb {
+  display: flex;
+  width: 100%;
+}
+.consultant-item .left .name.data-v-9b186cfb {
+  display: flex;
+  margin-left: 20rpx;
+  align-items: center;
+  width: 100%;
+}
+.consultant-item .left image.data-v-9b186cfb {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 100%;
+}
+.consultant-item .right.data-v-9b186cfb {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+.consultant-item .right .button.data-v-9b186cfb {
+  height: 80rpx;
+  line-height: 80rpx;
+  width: 120rpx;
+  font-size: 24rpx;
+  margin: auto 10rpx;
+}
+.consultant-item .right .zj.data-v-9b186cfb {
+  color: black;
+  border: 1rpx solid skyblue;
+  background: #ffffff;
+}
+.mask.data-v-9b186cfb {
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+.page.data-v-9b186cfb {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #ededed;
+}
+.chat-win.data-v-9b186cfb {
+  background-color: #ededed;
+  height: var(--9b186cfb-mainChatHeight);
+  box-sizing: border-box;
+}
+.chat-win .msg-list.data-v-9b186cfb {
+  height: auto !important;
+  padding: 20rpx;
+  box-sizing: border-box;
+}
+.chat-win .msg-list .msg.data-v-9b186cfb {
+  display: flex;
+}
+.chat-win .msg-list .msg .content.data-v-9b186cfb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: #ffffff;
+  height: inherit;
+  border-radius: 10rpx;
+  padding: 20rpx 25rpx;
+  max-width: 50vw;
+  word-break: break-all;
+  min-width: 30rpx;
+  min-height: 80rpx;
+  box-sizing: border-box;
+}
+.chat-win .msg-list .msg .con.data-v-9b186cfb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: #ffffff;
+  height: inherit;
+  border-radius: 10rpx;
+  padding: 20rpx 25rpx;
+  max-width: 50vw;
+  word-break: break-all;
+  min-width: 30rpx;
+  min-height: 80rpx;
+  box-sizing: border-box;
+}
+.chat-win .msg-list .my.data-v-9b186cfb {
+  flex-direction: row-reverse;
+}
+.chat-win .msg-list .my .content.data-v-9b186cfb {
+  margin-right: 25rpx;
+  background-color: #85d2f8;
+}
+.chat-win .msg-list .my .content.data-v-9b186cfb::after {
+  content: "";
+  display: inline-block;
+  height: 0;
+  width: 0;
+  border: 25rpx solid #85d2f7;
+  border-top: 25rpx solid transparent;
+  border-right: 25rpx solid transparent;
+  border-bottom: 25rpx solid transparent;
+  position: absolute;
+  right: -37rpx;
+  top: 40rpx;
+  z-index: 0;
+  transform: translateY(-50%);
+  border-radius: 20rpx;
+}
+.chat-win .msg-list .you .content.data-v-9b186cfb {
+  margin-left: 25rpx;
+}
+.chat-win .msg-list .you .content.data-v-9b186cfb::after {
+  content: "";
+  display: inline-block;
+  height: 0;
+  width: 0;
+  border: 25rpx solid #ffffff;
+  border-top: 25rpx solid transparent;
+  border-left: 25rpx solid transparent;
+  border-bottom: 25rpx solid transparent;
+  position: absolute;
+  left: -37rpx;
+  top: 40rpx;
+  transform: translateY(-50%);
+  border-radius: 20rpx;
+  z-index: 0;
+}
+.chat-win .msg-list .tips.data-v-9b186cfb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tips.data-v-9b186cfb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #888888;
+  font-size: 24rpx;
+  margin-top: 20rpx;
+}
+.bottom-bar.data-v-9b186cfb {
+  width: 100%;
+  background-color: #f7f7f7;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  font-size: 28rpx;
+  padding-bottom: env(safe-area-inset-bottom);
+  box-sizing: border-box;
+  box-shadow: 0 1rpx 14rpx 0 rgba(0, 0, 0, 0.1);
+  transition: none;
+}
+.bottom-bar .first-child.data-v-9b186cfb {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  box-sizing: border-box;
+  flex: 1;
+}
+.bottom-bar .first-child .input-area.data-v-9b186cfb {
+  position: relative;
+  box-sizing: border-box;
+  flex: 1;
+  width: 100%;
+  min-height: 60rpx;
+  margin: auto 10rpx;
+  padding: 20rpx auto;
+}
+.bottom-bar .first-child .input-area .icon-biaoqing-xue.data-v-9b186cfb {
+  font-size: 60rpx;
+  width: 60rpx;
+  position: absolute;
+  right: 0;
+  top: 10rpx;
+}
+.emoji.data-v-9b186cfb {
+  transition: none;
+  overflow: auto;
+}
+input.data-v-9b186cfb, textarea.data-v-9b186cfb {
+  box-sizing: border-box;
+  flex: 1;
+  min-height: 60rpx;
+  border-radius: 20rpx;
+  background-color: #ffffff;
+  padding-right: 60rpx;
+  margin: 10rpx auto;
+  box-shadow: 0 1rpx 10rpx 0 rgba(0, 0, 0, 0.1);
+  border: 1rpx solid #f7f7f7;
+  align-items: center;
+  text-indent: 10rpx;
+  width: 100%;
+}
+.icon-jiahao.data-v-9b186cfb {
+  font-size: 60rpx;
+  width: 60rpx;
+}
+button.data-v-9b186cfb {
+  height: auto;
+  margin: 10rpx;
+  border-radius: 20rpx;
+  background-color: skyblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 28rpx;
+  width: 120rpx;
+}
+button.data-v-9b186cfb::after {
+  border: 0;
+}
+.endBtn.data-v-9b186cfb {
+  display: block;
+}
+.hideEndBtn.data-v-9b186cfb {
+  display: none;
+}
+.btn.data-v-9b186cfb {
+  display: block;
+}
+image.data-v-9b186cfb {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+}
+.data-v-9b186cfb .emo-image {
+  height: 30rpx !important;
+  width: 30rpx !important;
+  vertical-align: middle !important;
+  display: inline-block !important;
+}
+.tools.data-v-9b186cfb {
+  box-sizing: border-box;
+  height: 350rpx;
+  display: flex;
+  flex-wrap: wrap;
+}
+.tools .tool-item.data-v-9b186cfb {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20rpx;
+  box-sizing: border-box;
+  width: 15%;
+}
+.tools .tool-item .icon-container.data-v-9b186cfb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60rpx;
+  width: 60rpx;
+  padding: 20rpx;
+  background-color: #ffffff;
+  border-radius: 100%;
+  margin-bottom: 10rpx;
+}
+.tools .tool-item .icon.data-v-9b186cfb {
+  font-size: 32rpx;
+}
+.tools .tool-item .tool-item-title.data-v-9b186cfb {
+  color: #909399;
+}
+.dialog-footer.data-v-9b186cfb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.uerinfo-item.data-v-9b186cfb {
+  padding: 30rpx 0;
+  margin: 0 30rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.userInfo-list.data-v-9b186cfb {
+  z-index: 10;
+}
+.rember-box.data-v-9b186cfb {
+  width: 100%;
+}
+.rember-box .text-input.data-v-9b186cfb {
+  display: flex;
+  width: 100%;
+}
+.rember-box .text-input textarea.data-v-9b186cfb {
+  flex: 1;
+}
+.userinfo-card.data-v-9b186cfb {
+  background: #ffffff;
+  padding: 20rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20rpx;
+  box-sizing: border-box;
+  background-color: #8EC5FC;
+  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+}
+.userinfo-card .info-box.data-v-9b186cfb {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20rpx;
+  color: #909399;
+}
+.userinfo-card .info-box .info-name.data-v-9b186cfb {
+  font-size: 37rpx;
+  font-weight: bold;
+  color: black;
+}
+.userinfo-card .info-box .divide.data-v-9b186cfb {
+  margin: 15rpx auto;
+}
+.userinfo-card .icon-nan.data-v-9b186cfb {
+  color: skyblue;
+}
+.userinfo-card .icon-xingbienv.data-v-9b186cfb {
+  color: pink;
+}
+.userinfo-card .beizhu.data-v-9b186cfb {
+  display: flex;
+  flex-direction: column-reverse;
+  height: 100%;
+}
+.divide.data-v-9b186cfb {
+  margin: 25rpx auto;
+}
+.emoji.data-v-9b186cfb {
+  display: flex;
+  justify-content: center;
+}
+.emoji .tools.data-v-9b186cfb {
+  width: 100%;
+  margin: auto;
+  display: flex;
+}
+.emoji .tools .tool-item.data-v-9b186cfb {
+  width: 20%;
+}

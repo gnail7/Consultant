@@ -1,0 +1,1 @@
+<view wx:if="{{a}}" class="g-pop-up data-v-b0be6281"><view class="content data-v-b0be6281"><view class="emoji-list data-v-b0be6281"><view wx:for="{{b}}" wx:for-item="item" wx:key="b" class="item data-v-b0be6281" bindtap="{{item.c}}"><image class="data-v-b0be6281" src="{{item.a}}"></image></view></view></view></view>

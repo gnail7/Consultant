@@ -1,0 +1,15 @@
+{
+  "navigationBarTitleText": "",
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "pager": "../../components/pager/pager",
+    "topnav": "./component/topnav",
+    "g-video": "../../components/video/index",
+    "g-image": "./component/gImage",
+    "g-audio": "./component/gAudio",
+    "loading": "./component/loading",
+    "record-dialog": "./component/recordDialog",
+    "g-emoji": "../../components/emoji/gEmoji"
+  }
+}

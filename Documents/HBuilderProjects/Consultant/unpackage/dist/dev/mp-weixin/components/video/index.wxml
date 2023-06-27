@@ -1,0 +1,1 @@
+<view class="data-v-0584f374"><video src="{{a}}" controls id="videoId" class="video-player data-v-0584f374" bindplay="{{b}}" bindfullscreenchange="{{c}}"></video></view>

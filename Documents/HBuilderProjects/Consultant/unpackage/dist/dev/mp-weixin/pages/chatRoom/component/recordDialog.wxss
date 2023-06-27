@@ -1,0 +1,142 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 按钮样式*/
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+.card.data-v-7ee16123 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.status-bar.data-v-7ee16123 {
+  width: 100%;
+  margin-top: 15rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.iconfont.data-v-7ee16123 {
+  font-size: 40rpx;
+  font-weight: bold;
+  background-color: greenyellow;
+  color: #fff;
+  padding: 20rpx;
+  border-radius: 100%;
+  margin: 10rpx auto;
+}
+.end-status.data-v-7ee16123 {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.end-status .button.data-v-7ee16123 {
+  width: 100%;
+  background-color: #fff;
+  border: none;
+}
+.end-status .button.data-v-7ee16123::after {
+  content: "";
+  border: none;
+}
+
+/* 语音音阶------------- */
+.prompt-loader.data-v-7ee16123 {
+  width: 96px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+.prompt-loader .em.data-v-7ee16123 {
+  display: block;
+  background: #333333;
+  width: 1px;
+  height: 10%;
+  margin-right: 2.5px;
+  float: left;
+}
+.prompt-loader .em.data-v-7ee16123:last-child {
+  margin-right: 0px;
+}
+.prompt-loader .em.data-v-7ee16123:nth-child(1) {
+  animation: load-7ee16123 2.5s 1.4s infinite linear;
+}
+.prompt-loader .em.data-v-7ee16123:nth-child(2) {
+  animation: load-7ee16123 2.5s 1.2s infinite linear;
+}
+.prompt-loader .em.data-v-7ee16123:nth-child(3) {
+  animation: load-7ee16123 2.5s 1s infinite linear;
+}
+.prompt-loader .em.data-v-7ee16123:nth-child(4) {
+  animation: load-7ee16123 2.5s 0.8s infinite linear;
+}
+.prompt-loader .em.data-v-7ee16123:nth-child(5) {
+  animation: load-7ee16123 2.5s 0.6s infinite linear;
+}
+.prompt-loader .em.data-v-7ee16123:nth-child(6) {
+  animation: load-7ee16123 2.5s 0.4s infinite linear;
+}
+.prompt-loader .em.data-v-7ee16123:nth-child(7) {
+  animation: load-7ee16123 2.5s 0.2s infinite linear;
+}
+.prompt-loader .em.data-v-7ee16123:nth-child(8) {
+  animation: load-7ee16123 2.5s 0s infinite linear;
+}
+.prompt-loader .em.data-v-7ee16123:nth-child(9) {
+  animation: load-7ee16123 2.5s 0.2s infinite linear;
+}
+.prompt-loader .em.data-v-7ee16123:nth-child(10) {
+  animation: load-7ee16123 2.5s 0.4s infinite linear;
+}
+.prompt-loader .em.data-v-7ee16123:nth-child(11) {
+  animation: load-7ee16123 2.5s 0.6s infinite linear;
+}
+.prompt-loader .em.data-v-7ee16123:nth-child(12) {
+  animation: load-7ee16123 2.5s 0.8s infinite linear;
+}
+.prompt-loader .em.data-v-7ee16123:nth-child(13) {
+  animation: load-7ee16123 2.5s 1s infinite linear;
+}
+.prompt-loader .em.data-v-7ee16123:nth-child(14) {
+  animation: load-7ee16123 2.5s 1.2s infinite linear;
+}
+.prompt-loader .em.data-v-7ee16123:nth-child(15) {
+  animation: load-7ee16123 2.5s 1.4s infinite linear;
+}
+@keyframes load-7ee16123 {
+0% {
+    height: 10%;
+}
+50% {
+    height: 100%;
+}
+100% {
+    height: 10%;
+}
+}
+/* 语音音阶-------------------- */
+.prompt-layer-2.data-v-7ee16123 {
+  top: -40px;
+}
+.prompt-layer-2 .text.data-v-7ee16123 {
+  color: black;
+  font-size: 12px;
+}

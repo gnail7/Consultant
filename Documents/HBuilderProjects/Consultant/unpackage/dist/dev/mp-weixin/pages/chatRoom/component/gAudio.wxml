@@ -1,0 +1,1 @@
+<view class="cricleplay data-v-2e1560ce" bindtap="{{d}}" status="stop" style="{{e}}"><view class="small data-v-2e1560ce"></view><view class="{{['middle', 'data-v-2e1560ce', a]}}"></view><view class="{{['large', 'data-v-2e1560ce', b]}}"></view><view class="second data-v-2e1560ce">{{c}}"</view></view>

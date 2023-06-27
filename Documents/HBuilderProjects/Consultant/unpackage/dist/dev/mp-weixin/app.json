@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/login",
+    "pages/chatHall/chatHall",
+    "pages/chatRoom/chatRoom",
+    "pages/fansList/fansList",
+    "pages/avatarPreview/avatarPreview",
+    "pages/memo/memo"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "友屿",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "backgroundColor": "aqua",
+    "list": [
+      {
+        "pagePath": "pages/index/index"
+      },
+      {
+        "pagePath": "pages/login/login"
+      },
+      {
+        "pagePath": "pages/chatHall/chatHall"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

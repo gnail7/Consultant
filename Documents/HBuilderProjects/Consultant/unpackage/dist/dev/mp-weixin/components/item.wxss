@@ -1,0 +1,282 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 按钮样式*/
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 按钮样式*/
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+@font-face {
+  font-family: "iconfont"; /* Project id 3844833 */
+  src: url('//at.alicdn.com/t/c/font_3844833_mn2cdfsp1td.woff2?t=1678086197373') format('woff2'),
+       url('//at.alicdn.com/t/c/font_3844833_mn2cdfsp1td.woff?t=1678086197373') format('woff'),
+       url('//at.alicdn.com/t/c/font_3844833_mn2cdfsp1td.ttf?t=1678086197373') format('truetype');
+}
+.iconfont.data-v-0b2eeb19 {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-zanting.data-v-0b2eeb19:before {
+  content: "\e667";
+}
+.icon-luyin1.data-v-0b2eeb19:before {
+  content: "\e608";
+}
+.icon-bofang.data-v-0b2eeb19:before {
+  content: "\e63e";
+}
+.icon-luyin.data-v-0b2eeb19:before {
+  content: "\e613";
+}
+.icon-tupian.data-v-0b2eeb19:before {
+  content: "\e8ba";
+}
+.icon-beiwanglu.data-v-0b2eeb19:before {
+  content: "\e622";
+}
+.icon-zhuanjie.data-v-0b2eeb19:before {
+  content: "\e668";
+}
+.icon-yonghuziliao.data-v-0b2eeb19:before {
+  content: "\e91b";
+}
+.icon-end.data-v-0b2eeb19:before {
+  content: "\e81e";
+}
+.icon-yujing.data-v-0b2eeb19:before {
+  content: "\e609";
+}
+.icon-jiahao.data-v-0b2eeb19:before {
+  content: "\eaf3";
+}
+.icon-siliao.data-v-0b2eeb19:before {
+  content: "\e63d";
+}
+.icon-jiazai.data-v-0b2eeb19:before {
+  content: "\e612";
+}
+.icon--siliaoshezhi.data-v-0b2eeb19:before {
+  content: "\e610";
+}
+.icon-fankui.data-v-0b2eeb19:before {
+  content: "\e738";
+}
+.icon-cha.data-v-0b2eeb19:before {
+  content: "\e617";
+}
+.icon-zixun.data-v-0b2eeb19:before {
+  content: "\e628";
+}
+.icon-zixun-tousu.data-v-0b2eeb19:before {
+  content: "\e623";
+}
+.icon-fatie.data-v-0b2eeb19:before {
+  content: "\e6b0";
+}
+.icon-huifu.data-v-0b2eeb19:before {
+  content: "\e60f";
+}
+.icon-xinfengxinjianyouxiangxianhuaxinfeng.data-v-0b2eeb19:before {
+  content: "\e62a";
+}
+.icon-icon-test.data-v-0b2eeb19:before {
+  content: "\e636";
+}
+.icon-sort-up.data-v-0b2eeb19:before {
+  content: "\ea4c";
+}
+.icon-sort-down.data-v-0b2eeb19:before {
+  content: "\ea4d";
+}
+.icon-minganci.data-v-0b2eeb19:before {
+  content: "\fcf8";
+}
+.icon-xinxiang-xiankuang.data-v-0b2eeb19:before {
+  content: "\e60e";
+}
+.icon-a-mubiaoguangchang.data-v-0b2eeb19:before {
+  content: "\e606";
+}
+.icon-kefurexianxianxing.data-v-0b2eeb19:before {
+  content: "\e616";
+}
+.icon-lishi.data-v-0b2eeb19:before {
+  content: "\e63c";
+}
+.icon-shebeiguanli.data-v-0b2eeb19:before {
+  content: "\ebb7";
+}
+.icon-chuangjian.data-v-0b2eeb19:before {
+  content: "\e615";
+}
+.icon-yingyongguanliyuanguanli.data-v-0b2eeb19:before {
+  content: "\e6a9";
+}
+.icon-guanbi.data-v-0b2eeb19:before {
+  content: "\e659";
+}
+.icon-xingbienv.data-v-0b2eeb19:before {
+  content: "\e605";
+}
+.icon-nan.data-v-0b2eeb19:before {
+  content: "\e60d";
+}
+.icon-biaoqing-xue.data-v-0b2eeb19:before {
+  content: "\e632";
+}
+.icon-jianpan.data-v-0b2eeb19:before {
+  content: "\eac2";
+}
+.icon-xiangyoujiantou.data-v-0b2eeb19:before {
+  content: "\e65f";
+}
+.icon-shouji.data-v-0b2eeb19:before {
+  content: "\e692";
+}
+.icon-jiaosequnti.data-v-0b2eeb19:before {
+  content: "\e8c9";
+}
+.icon-fanhuijiantou.data-v-0b2eeb19:before {
+  content: "\e8b5";
+}
+.icon-youxiang.data-v-0b2eeb19:before {
+  content: "\e908";
+}
+.icon-bumen.data-v-0b2eeb19:before {
+  content: "\e686";
+}
+.icon-chaxun.data-v-0b2eeb19:before {
+  content: "\e63b";
+}
+.icon-2shujuliebiao.data-v-0b2eeb19:before {
+  content: "\e611";
+}
+.icon-xiangxia.data-v-0b2eeb19:before {
+  content: "\e600";
+}
+.icon-navlist.data-v-0b2eeb19:before {
+  content: "\e6fa";
+}
+.icon-pengyouquan.data-v-0b2eeb19:before {
+  content: "\e621";
+}
+.icon-xiangshangjiantou.data-v-0b2eeb19:before {
+  content: "\e65d";
+}
+.icon-xiangxiajiantou.data-v-0b2eeb19:before {
+  content: "\e65e";
+}
+.icon-zixunguwen.data-v-0b2eeb19:before {
+  content: "\e69f";
+}
+.icon-color.data-v-0b2eeb19:before {
+  content: "\e760";
+}
+.icon-liuyan.data-v-0b2eeb19:before {
+  content: "\e614";
+}
+.icon-home.data-v-0b2eeb19:before {
+  content: "\e69b";
+}
+.icon-chat.data-v-0b2eeb19:before {
+  content: "\e69d";
+}
+.icon-shouye.data-v-0b2eeb19:before {
+  content: "\f1e0";
+}
+.nav.data-v-0b2eeb19 {
+  width: 100%;
+  height: 100%;
+  font-size: 34rpx;
+  box-sizing: border-box;
+  color: black;
+  background-color: #ffffff;
+  font-weight: normal;
+}
+.nav-item.data-v-0b2eeb19 {
+  width: 100%;
+  font-size: 34rpx;
+  box-sizing: border-box;
+}
+.nav-item .title.data-v-0b2eeb19 {
+  box-sizing: border-box;
+  height: 100rpx;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 20rpx;
+  position: relative;
+}
+.active.data-v-0b2eeb19 {
+  color: #00e1b4;
+  opacity: 1;
+}
+.label.data-v-0b2eeb19 {
+  margin-left: 10rpx;
+}
+.sub-menu.data-v-0b2eeb19 {
+  transition: all 0.2s ease-in-out;
+}
+.sub-menu .title.data-v-0b2eeb19 {
+  display: flex;
+}
+.sub-menu .title .between.data-v-0b2eeb19 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sub-menu .collapse-item.data-v-0b2eeb19 {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0rpx 15rpx;
+  display: block;
+  transition: all 0.2s ease-in-out;
+  border-left: 10rpx solid #00e1b4;
+}
+.hidden.data-v-0b2eeb19 {
+  height: 80rpx;
+  overflow: hidden;
+}
+.expand.data-v-0b2eeb19 {
+  height: 420rpx;
+  overflow: auto;
+}
+image.data-v-0b2eeb19 {
+  width: 40rpx;
+  height: 40rpx;
+}

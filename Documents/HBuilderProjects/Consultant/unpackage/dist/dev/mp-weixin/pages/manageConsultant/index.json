@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "pager": "../../components/pager/pager",
+    "g-switch": "../../components/gSwitch/index",
+    "loading": "../../directives/loading"
+  }
+}

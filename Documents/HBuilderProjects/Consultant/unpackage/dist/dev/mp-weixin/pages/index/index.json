@@ -1,0 +1,17 @@
+{
+  "navigationBarTitleText": "友屿AI平台",
+  "usingComponents": {
+    "user-list": "../userList/index",
+    "headbar": "../../components/headbar",
+    "sidebar": "../../components/sidebar",
+    "crumb-bar": "../../components/crumbBar",
+    "consult": "../consult/index",
+    "home": "../home/index",
+    "personal": "../personal/index",
+    "active-manage": "../activeManage/index",
+    "sucide-hotlines": "../sucide/index",
+    "manage-consultant": "../manageConsultant/index",
+    "letter": "../letter/index",
+    "feedback": "../feedback/feedback"
+  }
+}

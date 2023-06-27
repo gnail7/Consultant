@@ -1,0 +1,1 @@
+<view class="{{['container', 'data-v-0ee01408', b]}}"><view class="box data-v-0ee01408"><view class="mask data-v-0ee01408" bindtap="{{a}}"></view><view class="drawer data-v-0ee01408"><slot></slot></view></view></view>

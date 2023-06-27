@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "g-input-item": "../../components/input/gInputItem"
+  }
+}

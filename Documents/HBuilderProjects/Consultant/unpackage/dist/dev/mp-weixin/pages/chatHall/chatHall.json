@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "backgroundColorTop": "#eeeeee",
+  "usingComponents": {
+    "loading": "../../directives/loading",
+    "user-item": "./component/userItem",
+    "personal-chat": "./component/personalChat"
+  }
+}

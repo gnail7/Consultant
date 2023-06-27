@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "loading": "../../directives/loading",
+    "pager": "../../components/pager/pager",
+    "drawer": "./drawer/index",
+    "g-image": "../chatRoom/component/gImage"
+  }
+}

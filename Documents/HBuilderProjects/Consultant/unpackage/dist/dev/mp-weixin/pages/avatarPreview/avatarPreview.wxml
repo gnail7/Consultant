@@ -1,0 +1,1 @@
+<view class="main data-v-c8a21ff2"><ksp-cropper wx:if="{{c}}" class="data-v-c8a21ff2" bindcancel="{{a}}" bindok="{{b}}" u-i="c8a21ff2-0" bind:__l="__l" u-p="{{c}}"></ksp-cropper></view>

@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "pager": "../../components/pager/pager",
+    "loading": "../../components/loading/index",
+    "g-select": "../../components/gSelect/index"
+  }
+}

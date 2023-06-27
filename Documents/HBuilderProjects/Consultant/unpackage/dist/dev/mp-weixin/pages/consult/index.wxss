@@ -1,0 +1,348 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 按钮样式*/
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+.container.data-v-7a0095d3 {
+  width: 100%;
+  height: 100%;
+  padding: 20rpx;
+}
+.input.data-v-7a0095d3 {
+  border: 1rpx solid rgba(0, 0, 0, 0.1);
+  padding: 10rpx;
+  border-radius: 20rpx;
+}
+.middle.data-v-7a0095d3 {
+  width: 200rpx;
+}
+.button.data-v-7a0095d3 {
+  border-radius: 20rpx;
+  border: none;
+  background-color: #25c7b6;
+  color: #ffffff;
+  font-size: 28rpx;
+}
+.button.data-v-7a0095d3::after {
+  border: none;
+}
+.text.data-v-7a0095d3 {
+  color: black;
+  padding: 10rpx;
+}
+.box-shadow.data-v-7a0095d3 {
+  box-shadow: 0 1rpx 14rpx 0 rgba(0, 0, 0, 0.1);
+}
+.divide.data-v-7a0095d3 {
+  margin: 30rpx auto;
+}
+.table-box.data-v-7a0095d3 {
+  width: 100%;
+  box-sizing: border-box;
+  overflow: auto;
+  position: relative;
+  display: flex;
+  white-space: nowrap;
+  font-size: 24rpx;
+  z-index: 1;
+}
+.table.data-v-7a0095d3 {
+  box-sizing: border-box;
+  overflow: auto;
+  width: auto;
+  table-layout: fixed;
+}
+.table .row.data-v-7a0095d3 {
+  width: 100%;
+  display: table-row;
+  position: relative;
+  box-sizing: border-box;
+}
+.table .td-row.data-v-7a0095d3 {
+  box-sizing: border-box;
+  width: 100%;
+  display: table-row;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  height: 90rpx !important;
+}
+.th.data-v-7a0095d3 {
+  display: table-cell;
+  padding: 20rpx;
+  width: 20%;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: #fafafa;
+  color: black;
+  border-bottom: 1rpx solid #f0f0f0;
+}
+.td.data-v-7a0095d3 {
+  padding: 10rpx;
+  display: table-cell;
+  border-bottom: 1rpx solid #f0f0f0;
+  border-right: none;
+  overflow: hidden;
+  color: #9c9c9c;
+  margin: auto;
+  box-sizing: border-box;
+  align: center;
+  text-align: center;
+  vertical-align: middle;
+  text-align: center;
+}
+.thead.data-v-7a0095d3 {
+  height: 80rpx;
+}
+.thead.data-v-7a0095d3:last-child {
+  width: 40%;
+}
+.fixed-right.data-v-7a0095d3 {
+  position: absolute;
+  width: var(--7a0095d3-operateWidth);
+  right: 0;
+  top: 0;
+  z-index: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.fixed-right .th.data-v-7a0095d3 {
+  height: 80rpx;
+}
+.fixed-td.data-v-7a0095d3 {
+  border-left: 5rpx solid #f7f7f7;
+  background-color: #ffffff;
+  display: block;
+  z-index: 2;
+  width: 100%;
+  height: 90rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.operate.data-v-7a0095d3 {
+  display: flex;
+  margin: 10rpx;
+  justify-content: center;
+  align-items: center;
+}
+.top.data-v-7a0095d3 {
+  margin-bottom: 20rpx;
+}
+.page.data-v-7a0095d3 {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20rpx;
+}
+.table.data-v-7a0095d3 {
+  width: 100%;
+}
+.head-title.data-v-7a0095d3 {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  box-sizing: border-box;
+  align-items: center;
+}
+.table-title.data-v-7a0095d3 {
+  font-size: 30rpx;
+  padding: 20rpx;
+  border-left: 10rpx solid #25c7b6;
+}
+.empty.data-v-7a0095d3 {
+  width: 98vw;
+  height: 400rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.username.data-v-7a0095d3 {
+  color: #25c7b6;
+}
+.g-table.data-v-7a0095d3 {
+  margin: 20rpx auto;
+  position: relative;
+  width: 100%;
+}
+.g-table .table-box.data-v-7a0095d3 {
+  width: 100%;
+}
+.g-table .table-box .table.data-v-7a0095d3 {
+  width: 100%;
+}
+.table-title.data-v-7a0095d3 {
+  font-size: 30rpx;
+  border-left: 10rpx solid #25c7b6;
+}
+.footer.data-v-7a0095d3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20rpx;
+}
+.td.data-v-7a0095d3 {
+  box-sizing: border-box;
+  line-height: 80rpx;
+  position: relative;
+}
+.td .td-item.data-v-7a0095d3 {
+  width: 100%;
+  height: 100%;
+}
+.td image.data-v-7a0095d3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.divide.data-v-7a0095d3 {
+  margin: 20rpx;
+}
+.dialog2.data-v-7a0095d3 {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.dialog2 .box2.data-v-7a0095d3 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dialog2 .box2 .mask2.data-v-7a0095d3 {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+.dialog2 .box2 .consultant-list.data-v-7a0095d3 {
+  border-radius: 50rpx;
+  overflow: auto;
+  width: 95%;
+  height: -webkit-fit-content;
+  height: fit-content;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  z-index: 11;
+  position: relative;
+}
+.dialog-footer.data-v-7a0095d3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.consultant-item.data-v-7a0095d3 {
+  display: flex;
+  height: 150rpx;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20rpx;
+  border-bottom: 2rpx solid #f7f7f7;
+  box-sizing: border-box;
+}
+.consultant-item .left.data-v-7a0095d3 {
+  display: flex;
+  width: 100%;
+  flex: 1.5;
+}
+.consultant-item .left .name.data-v-7a0095d3 {
+  display: flex;
+  margin-left: 20rpx;
+  align-items: center;
+  width: 100%;
+}
+.consultant-item .left image.data-v-7a0095d3 {
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 100%;
+}
+.consultant-item .right.data-v-7a0095d3 {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  flex: 1;
+  width: 100%;
+}
+.consultant-item .right .btn.data-v-7a0095d3 {
+  border-radius: 20rpx;
+  display: flex;
+  align-items: center;
+  width: auto;
+  box-sizing: border-box;
+  padding: 10rpx 20rpx;
+  font-size: 28rpx;
+}
+.consultant-item .right .btn.data-v-7a0095d3::after {
+  border: none;
+}
+.consultant-item .right .zj.data-v-7a0095d3 {
+  background-color: #ffffff;
+  box-sizing: border-box;
+  color: #25c7b6;
+  align-items: center;
+}
+.consultant-item .right .zj.data-v-7a0095d3::after {
+  border: 10rpx solid #f7f7f7;
+}
+.consultant-item .right .sl.data-v-7a0095d3 {
+  background-color: #25c7b6;
+  box-sizing: border-box;
+  color: #ffffff;
+  align-items: center;
+}
+.consultant-item .right .sl.data-v-7a0095d3::after {
+  border: 10rpx solid #f7f7f7;
+}
+.g-button.data-v-7a0095d3 {
+  border: none;
+  padding: 0rpx;
+  background: #ffffff;
+  color: #25c7b6;
+  font-size: 24rpx;
+}
+.g-button.data-v-7a0095d3::after {
+  border: none;
+  padding: 0rpx;
+  margin: 0rpx;
+}
+.end-btn.data-v-7a0095d3 {
+  color: #F56C6C;
+}
+.transfer-btn.data-v-7a0095d3 {
+  color: #ebb563;
+}
+.consulting.data-v-7a0095d3 {
+  color: #67C23A;
+}
+.wait-feedback.data-v-7a0095d3 {
+  color: #E6A23C;
+}
+.end-consult.data-v-7a0095d3 {
+  color: #F56C6C;
+}

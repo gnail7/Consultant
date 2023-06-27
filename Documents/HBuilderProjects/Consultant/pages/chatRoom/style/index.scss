@@ -1,0 +1,54 @@
+.footer {
+	width: 100%;
+	background-color: #E9EDF4;
+	display: flex;
+	position: fixed;
+	bottom: 0;
+}
+
+.footer .content-wrap {
+	width: 78%;
+	margin-left: 2%;
+}
+
+.footer .content {
+	width: 100%;
+	box-sizing: border-box;
+	margin: 14rpx 0;
+	background-color: #FFFFFF;
+	border-radius: 30rpx;
+	padding: 16rpx;
+	caret-color: #01B4FE;
+}
+
+.footer .btn-wrap {
+	width: 18%;
+	margin-right: 2%;
+}
+
+.footer .btn {
+	width: 15%;
+	height: 65rpx;
+	font-size: 26rpx;
+	margin-left: 2%;
+	background-color: #01B4FE;
+	color: #FFFFFF;
+	position: fixed;
+	bottom: 14rpx;
+	border: 0;
+	outline: none;
+}
+
+.footer .btn-wrap .disabled {
+	background-color: #aae8f5;
+}
+
+.uni-textarea-wrapper {
+	max-height: 180rpx;
+}
+ .emo-image {
+			height: 40rpx;
+			width: 40rpx;
+			vertical-align: middle;
+			display: inline-block;
+		  }
